@@ -16,3 +16,5 @@ mv /home/eagb/ncbi/public/sra/SRR3622812.sra .
 #duplicate into the analysis dir and archive the original
 cp /home/eagb/IME-STARRseq/data/analyzed/WHG-STARR/SRR3622812.sra /home/eagb/IME-STARRseq/data/analyzed/WHG-STARR/
 gzip SRR3622812.sra
+
+#this is just a test 

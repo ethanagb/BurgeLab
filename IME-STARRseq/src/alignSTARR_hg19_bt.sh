@@ -1,5 +1,5 @@
 #!/bin/sh
-#SBATCH -n 16
+#SBATCH -n 32
 #SBATCH -t 11:59:00
 #SBATCH --mem-per-cpu=16384
 #SBATCH -J hg19_bt_align # sensible name for the job
@@ -13,5 +13,5 @@ module load engaging/bowtie/1.1.1
 
 #Alignment
 
-bowtie /home/eagb/ref/genomes/hg19/bowtieIndex/downloaded/hg19 -p 16 -1 /pool001/eagb/data/analyzed/SRR3622812_1.fastq -2 /pool001/eagb/data/analyzed/SRR3622812_2.fastq -S /pool001/eagb/data/analyzed/alignment/hg19/SRR3622812_hg19_bt_09Feb2018.sam
+bowtie /home/eagb/ref/genomes/hg19/bowtieIndex/downloaded/hg19 -p 32 -m 2 -1 /pool001/eagb/data/analyzed/SRR3622812_1.fastq -2 /pool001/eagb/data/analyzed/SRR3622812_2.fastq -S /pool001/eagb/data/analyzed/alignment/hg19/SRR3622812_hg19_bt_09Feb2018.sam
 
