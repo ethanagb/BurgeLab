@@ -46,3 +46,19 @@ General plan - reconstruct the analysis in Liu et. al. 2017 to map STARRseq read
 - Get intron start and end positons, find which overlap with enhancers with bedtools intersect.
 - Normalize positions to percent of total length to the end (or something like that)
 ---
+
+## 12 Feb
+### Ideas
+
+- Liu paper says they called ~98,000 peaks but I only called 6800. Need to figure out what's going on with that.
+- Try to use input library as a control and see if that calls more peaks? Paper doesn't specify the parameters used at all other than q=0.05
+- 
+
+### Accomplished
+- Obtained control library from SRA. 
+
+### In Progress
+
+### To Do
+
+

@@ -13,4 +13,5 @@
 module load engaging/samtools/1.3.1
 
 #Convert sam to bam 
-samtools view -S -b  /home/eagb/storage/data/analyzed/alignment/hg19/SRR3622812_hg19_bt2_08Feb2018.sam > /home/eagb/storage/data/analyzed/alignment/hg19/SRR3622812_hg19_bt2_08Feb2018.bam
+samtools view -S -b  /home/eagb/storage/data/analyzed/alignment/hg19/SRR3622812_hg19_bt_09Feb2018.sam > /home/eagb/storage/data/analyzed/alignment/hg19/SRR3622812_hg19_bt_09Feb2018.bam
+samtools sort -o /home/eagb/storage/data/analyzed/alignment/hg19/SRR3622812_hg19_bt_sort_09Feb2018.bam --threads 8 -O BAM /home/eagb/storage/data/analyzed/alignment/hg19/SRR3622812_hg19_bt_09Feb2018.bam
