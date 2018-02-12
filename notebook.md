@@ -52,13 +52,22 @@ General plan - reconstruct the analysis in Liu et. al. 2017 to map STARRseq read
 
 - Liu paper says they called ~98,000 peaks but I only called 6800. Need to figure out what's going on with that.
 - Try to use input library as a control and see if that calls more peaks? Paper doesn't specify the parameters used at all other than q=0.05
+- probably need some python script to count peaks that are within intron boundaries
 - 
 
 ### Accomplished
-- Obtained control library from SRA. 
+- Obtained control library from SRA and converted to correct file types
+- Got genomic coordinates of all introns
+- Running alignments for hg19 and the second biological replicate from Liu et. al. 
+- 
 
 ### In Progress
+- ~~Alignments for the second biological replicate from the Liu paper.~~
+- Getting the data in proper format for the control to redo the peak calling, which is very slow to run. 
+- ~~Genomic coordinates of all introns in hg19~~
 
 ### To Do
+- Redo peak calling w/ control 
+- make plan for how to count where the enhancers are positioned in the introns.
 
 
