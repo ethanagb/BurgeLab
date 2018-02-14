@@ -57,7 +57,7 @@ General plan - reconstruct the analysis in Liu et. al. 2017 to map STARRseq read
 
 ### Accomplished
 - Obtained control library from SRA and converted to correct file types
-- Got genomic coordinates of all introns
+- Got genomic coordinates of all introns (`/home/eagb/ref/genomes/hg19/USCS_hg19_introns.bed`)
 - Running alignments for hg19 and the second biological replicate from Liu et. al. 
 - 
 
