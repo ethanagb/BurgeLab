@@ -70,4 +70,90 @@ General plan - reconstruct the analysis in Liu et. al. 2017 to map STARRseq read
 - Redo peak calling w/ control 
 - make plan for how to count where the enhancers are positioned in the introns.
 
+---
+
+## 13 Feb
+
+### Ideas
+
+- Liu paper says they called ~98,000 peaks but I only called 6800. Need to figure out what's going on with that.
+- Try to use input library as a control and see if that calls more peaks? Paper doesn't specify the parameters used at all other than q=0.05
+- probably need some python script to count peaks that are within intron boundaries
+
+
+### Accomplished
+- make plan for how to count where the enhancers are positioned in the introns.
+- 
+
+### In Progress
+
+### To Do
+- Redo peak calling w/ control 
+
+---
+
+## 14 Feb
+
+### Ideas
+
+### Accomplished
+- submitted alignments for input library
+- 
+
+### In Progress
+- still trying to figure out the peak number mess
+
+### To Do
+- Redo peak calling w/ control 
+
+---
+
+## 15 Feb
+
+### Ideas
+
+
+### Accomplished
+- tried a bunch of different peak calling parameters, still not able to replicate. 
+
+### In Progress
+
+### To Do
+- Redo peak calling w/ control 
+
+---
+
+## 16 Feb
+
+### Ideas
+-scour their supplements for a list of enhancers
+
+### Accomplished
+- recreated a list of their called enhancers and am now using that while trying to reproduce teh data
+- Wrote script to calculate where in intron enhancer sequences fall
+
+### In Progress
+- debugging
+- still trying to reproduce their peak calling results...
+
+
+### To Do
+
+---
+
+## 19 Feb
+
+### Ideas
+
+
+### Accomplished
+
+
+### In Progress
+
+### To Do
+
+---
+
+
 
